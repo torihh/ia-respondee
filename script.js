@@ -20,24 +20,32 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "*Por que é importante conservar a água?",
+        enunciado: "*O que é o meio ambiente?*",
         alternativas: 
             {
-                texto: " As mudanças climáticas referem-se a alterações significativas e duradouras nos padrões climáticos da Terra, muitas das quais são causadas pelo aumento das emissões de gases do efeito estufa, resultantes da atividade humana, como a queima de combustíveis fósseis e desmatamento.
+                texto: " O meio ambiente é o conjunto de todas as condições e influências que cercam e afetam um organismo vivo. Ele inclui fatores biológicos (como outros seres vivos) e abióticos (como a água, o solo, o ar e o clima). Basicamente, é tudo o que existe na Terra e que interage de alguma forma.
+
+.
 ."
                 afirmacao: "Conseguiu utilizar a métodos para buscar informações úteis."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "O que é o efeito estufa?",
+                afirmacao: "A pegada de carbono é a quantidade total de gases de efeito estufa (GEE) gerados por nossas ações, como o dióxido de carbono (CO 
+2
+​
+ ) e o metano (CH 
+4
+​
+ ). Ela pode ser calculada para uma pessoa, uma empresa, um produto ou até mesmo um país, e serve para medir o impacto que causamos no meio ambiente através de nossas atividades diárias, como usar o carro, consumir energia ou comprar alimentos.."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
+        enunciado: "O que é o efeito estufa?",
+        alternativas: 
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "O efeito estufa é um processo natural e vital para a vida na Terra. Ele ocorre quando a atmosfera retém parte do calor do sol, mantendo o planeta aquecido o suficiente para a existência de água líquida e de vida. No entanto, o excesso de gases de efeito estufa emitidos pelas atividades humanas (como a queima de combustíveis fósseis) intensifica esse efeito, causando o aquecimento global.."
                 afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
             },
             {
@@ -47,10 +55,11 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Quais são as principais fontes de poluição da água?
+?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "."
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
             },
             {
@@ -60,15 +69,27 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Como posso ajudar a proteger o meio ambiente no dia a dia?? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Existem várias ações que você pode tomar, como:
+
+Reduzir, Reutilizar e Reciclar (os 3 R's).
+
+Economizar água e energia em casa.
+
+Reduzir o consumo de carne, já que a pecuária é uma grande fonte de gases de efeito estufa..",
+                afirmacao: "Utilizar menos o carro e optar por andar de bicicleta, caminhar ou usar o transporte público.
+
+Plantar árvores e apoiar iniciativas de conservação.
+
+Escolher produtos com embalagens sustentáveis e de empresas que se preocupam com o meio ambiente.."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "O que é biodiversidade?"
+                afirmacao: "A biodiversidade é a variedade de vida na Terra em todos os seus níveis, desde a diversidade genética dentro de uma espécie até a variedade de ecossistemas (como florestas, oceanos e desertos). Proteger a biodiversidade é fundamental para a saúde do planeta, pois cada espécie e ecossistema desempenha um papel importante na manutenção do equilíbrio natural.
+
+. "
             }
         ]
     },
