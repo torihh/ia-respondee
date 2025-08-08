@@ -6,95 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "*Por que é importante conservar a água?",
-        alternativas: 
-            {
-                texto: "Isso é importante!",
-                afirmacao: "A conservação da água é essencial porque ela é um recurso finito e fundamental para a vida. "
-            },
-            {
-                texto: "Isso é maravilhoso!",
-                afirmacao: " A água potável escassa pode levar a sérios problemas de saúde, agricultura e economia. Além disso, a conservação ajuda a proteger os ecossistemas aquáticos.
-."
-            }
-        ]
-    },
-    {
-        enunciado: "*O que é o meio ambiente?*",
-        alternativas: 
-            {
-                texto: " O meio ambiente é o conjunto de todas as condições e influências que cercam e afetam um organismo vivo. Ele inclui fatores biológicos (como outros seres vivos) e abióticos (como a água, o solo, o ar e o clima). Basicamente, é tudo o que existe na Terra e que interage de alguma forma.
-
-.
-."
-                afirmacao: "Conseguiu utilizar a métodos para buscar informações úteis."
-            },
-            {
-                texto: "O que é o efeito estufa?",
-                afirmacao: "A pegada de carbono é a quantidade total de gases de efeito estufa (GEE) gerados por nossas ações, como o dióxido de carbono (CO 
-2
-​
- ) e o metano (CH 
-4
-​
- ). Ela pode ser calculada para uma pessoa, uma empresa, um produto ou até mesmo um país, e serve para medir o impacto que causamos no meio ambiente através de nossas atividades diárias, como usar o carro, consumir energia ou comprar alimentos.."
-            }
-        ]
-    },
-    {
-        enunciado: "O que é o efeito estufa?",
-        alternativas: 
-            {
-                texto: "O efeito estufa é um processo natural e vital para a vida na Terra. Ele ocorre quando a atmosfera retém parte do calor do sol, mantendo o planeta aquecido o suficiente para a existência de água líquida e de vida. No entanto, o excesso de gases de efeito estufa emitidos pelas atividades humanas (como a queima de combustíveis fósseis) intensifica esse efeito, causando o aquecimento global.."
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
-            },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
-            }
-        ]
-    },
-    {
-        enunciado: "Quais são as principais fontes de poluição da água?
-?",
+        enunciado: "Qual é a sua principal preocupação sobre o meio ambiente?",
         alternativas: [
             {
-                texto: "."
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "A poluição da água.",
+                afirmacao: "A poluição da água é um problema grave, afetando a saúde humana e a vida selvagem. Sua preocupação é válida."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "O desmatamento.",
+                afirmacao: "O desmatamento é uma das maiores causas da perda de biodiversidade e das mudanças climáticas. Sua preocupação demonstra grande consciência."
             }
         ]
     },
     {
-        enunciado: "Como posso ajudar a proteger o meio ambiente no dia a dia?? ",
+        enunciado: "O que é o efeito estufa e por que ele é importante?",
         alternativas: [
             {
-                texto: "Existem várias ações que você pode tomar, como:
-
-Reduzir, Reutilizar e Reciclar (os 3 R's).
-
-Economizar água e energia em casa.
-
-Reduzir o consumo de carne, já que a pecuária é uma grande fonte de gases de efeito estufa..",
-                afirmacao: "Utilizar menos o carro e optar por andar de bicicleta, caminhar ou usar o transporte público.
-
-Plantar árvores e apoiar iniciativas de conservação.
-
-Escolher produtos com embalagens sustentáveis e de empresas que se preocupam com o meio ambiente.."
+                texto: "É um processo natural que mantém a Terra aquecida.",
+                afirmacao: "O efeito estufa é um processo natural vital. Sem ele, a Terra seria fria demais para a vida, mas o excesso de gases causa o aquecimento global."
             },
             {
-                texto: "O que é biodiversidade?"
-                afirmacao: "A biodiversidade é a variedade de vida na Terra em todos os seus níveis, desde a diversidade genética dentro de uma espécie até a variedade de ecossistemas (como florestas, oceanos e desertos). Proteger a biodiversidade é fundamental para a saúde do planeta, pois cada espécie e ecossistema desempenha um papel importante na manutenção do equilíbrio natural.
-
-. "
+                texto: "É a camada de ozônio que protege a Terra.",
+                afirmacao: "A camada de ozônio protege contra raios UV, mas o efeito estufa é a retenção de calor na atmosfera. Sua resposta mostra interesse em entender os diferentes fenômenos atmosféricos."
+            }
+        ]
+    },
+    {
+        enunciado: "Qual a sua atitude para proteger o meio ambiente no dia a dia?",
+        alternativas: [
+            {
+                texto: "Reciclo o lixo e evito o desperdício.",
+                afirmacao: "A reciclagem e a redução do desperdício são atitudes essenciais. Pequenas ações diárias somam-se a um grande impacto positivo."
+            },
+            {
+                texto: "Economizo água e energia em casa.",
+                afirmacao: "Economizar recursos como água e energia é fundamental. Isso reduz a pressão sobre os ecossistemas e diminui a pegada de carbono."
+            }
+        ]
+    },
+    {
+        enunciado: "O que você faria para conscientizar outras pessoas?",
+        alternativas: [
+            {
+                texto: "Conversaria com amigos e familiares sobre o tema.",
+                afirmacao: "Conversar com pessoas próximas é uma forma poderosa de espalhar a conscientização. A mudança começa no nosso círculo social."
+            },
+            {
+                texto: "Apoiaria projetos e ONGs ambientais.",
+                afirmacao: "Apoiar iniciativas organizadas é crucial para causas maiores. Sua atitude de suporte fortalece a luta pela proteção ambiental em escala."
+            }
+        ]
+    },
+    {
+        enunciado: "O que você acha da ideia de um futuro mais sustentável?",
+        alternativas: [
+            {
+                texto: "É essencial para a sobrevivência do planeta.",
+                afirmacao: "A busca por um futuro sustentável é a chave para garantir um planeta saudável para as próximas gerações. Sua visão é muito importante para o nosso futuro."
+            },
+            {
+                texto: "É um desafio que podemos superar juntos.",
+                afirmacao: "A sustentabilidade é, sem dúvida, um grande desafio, mas a colaboração e o esforço conjunto podem superá-lo. Sua confiança em ações coletivas é inspiradora."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -128,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "O seu compromisso com o meio ambiente constrói um futuro mais verde!";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
